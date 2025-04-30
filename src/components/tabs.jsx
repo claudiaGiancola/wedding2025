@@ -6,45 +6,32 @@ import {
     TabPanel,
 } from "@material-tailwind/react";
 
+import MapWithMarker from './map';
+
 export function TabsDefault() {
     const data = [
         {
-            label: "HTML",
-            value: "html",
-            desc: `It really matters and then like it really doesn't matter.
-        What matters is the people who are sparked by it. And the people 
-        who are like offended by it, it doesn't matter.`,
+            label: "CERIMONIA",
+            value: "cerimonia",
+            desc: <MapWithMarker
+                position={[42.15874995882924, 12.224626909233246]}
+                popupText="CERIMONIA: Via della Rena, 99, 00069 Trevignano Romano RM, Italy"
+                markerColour="green"
+            />,
         },
         {
-            label: "React",
-            value: "react",
-            desc: `Because it's about motivating the doers. Because I'm here
-        to follow my dreams and inspire other people to follow their dreams, too.`,
-        },
-        {
-            label: "Vue",
-            value: "vue",
-            desc: `We're not always in the position that we want to be at.
-        We're constantly growing. We're constantly making mistakes. We're
-        constantly trying to express ourselves and actualize our dreams.`,
-        },
-        {
-            label: "Angular",
-            value: "angular",
-            desc: `Because it's about motivating the doers. Because I'm here
-        to follow my dreams and inspire other people to follow their dreams, too.`,
-        },
-        {
-            label: "Svelte",
-            value: "svelte",
-            desc: `We're not always in the position that we want to be at.
-        We're constantly growing. We're constantly making mistakes. We're
-        constantly trying to express ourselves and actualize our dreams.`,
+            label: "RICEVIMENTO",
+            value: "ricevimento",
+            desc: <MapWithMarker
+                position={[42.16498943948103, 12.229883605276306]}
+                popupText="RICEVIMENTO: Il Frantoio, Via Sutri, 3, 00069 Trevignano Romano RM, Italy"
+                markerColour="gold"
+            />,
         },
     ];
 
     return (
-        <Tabs value="html">
+        <Tabs value="cerimonia">
             <TabsHeader>
                 {data.map(({ label, value }) => (
                     <Tab key={value} value={value}>
