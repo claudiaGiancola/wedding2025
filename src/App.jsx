@@ -5,7 +5,6 @@ import { DialogWithBillingForm } from './components/dialog';
 import { SimpleFooter } from './components/footer';
 import { ImgWithBlurredCaption } from './components/image';
 import { StickyNavbar } from './components/navbar';
-import { StepperWithContent } from './components/stepper';
 import { TabsDefault } from './components/tabs';
 import { TimelineWithIcon } from './components/timeline';
 
@@ -14,20 +13,23 @@ function App() {
   return (
     <>
       <StickyNavbar />
-      
+
       <ImgWithBlurredCaption />
-      
-      <TimelineWithIcon />
-      <TabsDefault />
 
-      <StepperWithContent />
+      <div className='flex flex-col items-center justify-center gap-4'>
+        <TimelineWithIcon />
 
-      <CollapseDefault />
+      </div>
 
-      <DialogWithBillingForm />
+        {/* <TabsDefault /> */}
 
-      <CarouselCustomNavigation />
-      <CarouselWithContent />
+        <CollapseDefault />
+
+        <DialogWithBillingForm />
+
+        <CarouselCustomNavigation />
+        <CarouselWithContent />
+        
 
       <SimpleFooter />
     </>

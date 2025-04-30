@@ -11,7 +11,7 @@ export default function Countdown() {
                 className="countdown"
                 labels={['Days', 'Hours', 'Minutes', 'Seconds']}
                 // labelStyle={{ fontSize: 12, fontWeight: 500, color: 'green' }}
-                digitBlockStyle={{ width: 40, height: 60, fontSize: 30, background: '#f6b092', borderRadius: 8, boxShadow: '0 2px 5px rgba(0, 0, 0, 0.2)' }}
+                digitBlockStyle={{ width: 30, height: 45, fontSize: 30, background: '#f6b092', borderRadius: 8, boxShadow: '0 2px 5px rgba(0, 0, 0, 0.2)' }}
             />
         </div>
     );
