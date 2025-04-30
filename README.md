@@ -18,4 +18,4 @@ If you are developing a production application, we recommend using TypeScript wi
 
 Install dependencies:
 - `npm install --save @leenguyen/react-flip-clock-countdown`
-- 
+- `npm install react-leaflet leaflet axios`
