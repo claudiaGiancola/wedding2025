@@ -16,6 +16,7 @@ If you are developing a production application, we recommend using TypeScript wi
 1. `npm install`
 2. `npm run dev`
 
-Install dependencies:
+Dependencies:
 - `npm install --save @leenguyen/react-flip-clock-countdown`
 - `npm install react-leaflet leaflet axios`
+- `npm i @heroicons/react`

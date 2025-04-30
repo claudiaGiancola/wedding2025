@@ -3,6 +3,7 @@ import Countdown from './components/countdown';
 import MapWithMarker from './components/map';
 import { StepperWithContent } from './components/stepper';
 import { TabsDefault } from './components/tabs';
+import { ActivitiesTimeline, TimelineWithIcon } from './components/timeline';
 
 function App() {
 
@@ -23,6 +24,10 @@ function App() {
         />
 
       <TabsDefault />
+
+      <TimelineWithIcon />
+      <ActivitiesTimeline />
+
       <StepperWithContent />
     </>
   )
