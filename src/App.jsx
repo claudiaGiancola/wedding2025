@@ -14,7 +14,7 @@ function App() {
     <>
       <StickyNavbar />
 
-      <div className='flex flex-col items-center justify-center gap-4'>
+      <div className='relative z-0 flex flex-col items-center justify-center gap-4'>
 
       <ImgWithBlurredCaption />
 
