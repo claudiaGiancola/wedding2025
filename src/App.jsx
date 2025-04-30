@@ -1,34 +1,35 @@
 import './App.css'
-import Countdown from './components/countdown';
-import MapWithMarker from './components/map';
+import { CarouselCustomNavigation, CarouselWithContent } from './components/carousel';
+import CollapseDefault from './components/collapse';
+import { DialogWithBillingForm } from './components/dialog';
+import { SimpleFooter } from './components/footer';
+import { ImgWithBlurredCaption } from './components/image';
+import { StickyNavbar } from './components/navbar';
 import { StepperWithContent } from './components/stepper';
 import { TabsDefault } from './components/tabs';
-import { ActivitiesTimeline, TimelineWithIcon } from './components/timeline';
+import { TimelineWithIcon } from './components/timeline';
 
 function App() {
 
   return (
     <>
-      <Countdown />
+      <StickyNavbar />
       
-      <TabsDefault />
+      <ImgWithBlurredCaption />
       
-      {/* <MapWithMarker
-          position={[42.15874995882924, 12.224626909233246]}
-          popupText="CERIMONIA: Via della Rena, 99, 00069 Trevignano Romano RM, Italy"
-          markerColour="green"
-        /> */}
-
-        {/* <MapWithMarker
-          position={[42.16498943948103, 12.229883605276306]}
-          popupText="RICEVIMENTO: Il Frantoio, Via Sutri, 3, 00069 Trevignano Romano RM, Italy"
-          markerColour="gold"
-        /> */}
-
       <TimelineWithIcon />
-      <ActivitiesTimeline />
+      <TabsDefault />
 
       <StepperWithContent />
+
+      <CollapseDefault />
+
+      <DialogWithBillingForm />
+
+      <CarouselCustomNavigation />
+      <CarouselWithContent />
+
+      <SimpleFooter />
     </>
   )
 }
