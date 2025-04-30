@@ -14,9 +14,10 @@ function App() {
     <>
       <StickyNavbar />
 
+      <div className='flex flex-col items-center justify-center gap-4'>
+
       <ImgWithBlurredCaption />
 
-      <div className='flex flex-col items-center justify-center gap-4'>
         <TimelineWithIcon />
 
       </div>
