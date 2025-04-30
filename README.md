@@ -15,3 +15,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 1. `npm install`
 2. `npm run dev`
+
+Install dependencies:
+- `npm install --save @leenguyen/react-flip-clock-countdown`
+- 
