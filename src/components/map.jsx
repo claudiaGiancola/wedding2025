@@ -14,7 +14,7 @@ export default function MapWithMarker({ position, popupText, markerColour }) {
     });
 
     return (
-        <div className="w-4/5 h-[400px] rounded-lg overflow-hidden">
+        <div className="w-[30rem] h-[20rem] rounded-lg overflow-hidden">
             <MapContainer
                 center={position}
                 zoom={13}
