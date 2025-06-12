@@ -27,15 +27,12 @@ export function TimelineWithIcon() {
               <HomeIcon className="h-4 w-4" />
             </TimelineIcon>
             <Typography variant="h5" color="blue-gray">
-              16:30 | Cerimonia
+              6 Settembre | 16:30 | Cerimonia
             </Typography>
           </TimelineHeader>
           <TimelineBody className="pb-8 flex flex-row">
             <Typography color="gary" className="font-normal text-gray-600">
-              The key to more success is to have a lot of pillows. Put it this way, it took me
-              twenty five years to get these plants, twenty five years of blood sweat and tears, and
-              I&apos;m never giving up, I&apos;m just getting started. I&apos;m up to something. Fan
-              luv.
+              The key to more success is to have a lot of pillows.
             </Typography>
             <MapWithMarker
               position={[42.15874995882924, 12.224626909233246]}
@@ -51,15 +48,12 @@ export function TimelineWithIcon() {
               <BellIcon className="h-4 w-4" />
             </TimelineIcon>
             <Typography variant="h5" color="blue-gray">
-              18:00 | Ricevimento
+              6 Settembre | 18:00 | Ricevimento
             </Typography>
           </TimelineHeader>
           <TimelineBody className="pb-8">
             <Typography color="gary" className="font-normal text-gray-600">
-              The key to more success is to have a lot of pillows. Put it this way, it took me
-              twenty five years to get these plants, twenty five years of blood sweat and tears, and
-              I&apos;m never giving up, I&apos;m just getting started. I&apos;m up to something. Fan
-              luv.
+              The key to more success is to have a lot of pillows.
             </Typography>
             <MapWithMarker
               position={[42.16498943948103, 12.229883605276306]}
@@ -75,15 +69,12 @@ export function TimelineWithIcon() {
               <CurrencyDollarIcon className="h-4 w-4" />
             </TimelineIcon>
             <Typography variant="h5" color="blue-gray">
-              19:30 | Cena
+              6 Settembre | 19:30 | Cena
             </Typography>
           </TimelineHeader>
           <TimelineBody>
             <Typography color="gary" className="font-normal text-gray-600">
-              The key to more success is to have a lot of pillows. Put it this way, it took me
-              twenty five years to get these plants, twenty five years of blood sweat and tears, and
-              I&apos;m never giving up, I&apos;m just getting started. I&apos;m up to something. Fan
-              luv.
+              The key to more success is to have a lot of pillows.
             </Typography>
           </TimelineBody>
         </TimelineItem>
@@ -94,15 +85,12 @@ export function TimelineWithIcon() {
               <CurrencyDollarIcon className="h-4 w-4" />
             </TimelineIcon>
             <Typography variant="h5" color="blue-gray">
-              22:00 - 01:30 | Party
+              6 Settembre | 22:00 - 01:30 | Party
             </Typography>
           </TimelineHeader>
           <TimelineBody>
             <Typography color="gary" className="font-normal text-gray-600">
-              The key to more success is to have a lot of pillows. Put it this way, it took me
-              twenty five years to get these plants, twenty five years of blood sweat and tears, and
-              I&apos;m never giving up, I&apos;m just getting started. I&apos;m up to something. Fan
-              luv.
+              The key to more success is to have a lot of pillows.
             </Typography>
           </TimelineBody>
         </TimelineItem>
@@ -113,15 +101,12 @@ export function TimelineWithIcon() {
               <HomeIcon className="h-4 w-4" />
             </TimelineIcon>
             <Typography variant="h5" color="blue-gray">
-              11:30 | Brunch (e bagno al lago per chi vuole!)
+              7 Settembre | 11:30 | Brunch (e bagno al lago!)
             </Typography>
           </TimelineHeader>
           <TimelineBody className="pb-8 flex flex-row">
             <Typography color="gary" className="font-normal text-gray-600">
-              The key to more success is to have a lot of pillows. Put it this way, it took me
-              twenty five years to get these plants, twenty five years of blood sweat and tears, and
-              I&apos;m never giving up, I&apos;m just getting started. I&apos;m up to something. Fan
-              luv.
+              The key to more success is to have a lot of pillows.
             </Typography>
             <MapWithMarker
               position={[42.15874995882924, 12.224626909233246]}

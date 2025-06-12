@@ -126,28 +126,30 @@ export function DialogDefault() {
 
   return (
     <>
-      <Button onClick={handleOpen} variant="gradient">
-        Open Modal
+      <Button onClick={handleOpen} className="opacity-90 bg-gradient-to-r from-green-800 to-green-500 text-white hover:from-orange-600 hover:to-orange-200 hover:text-black">
+        <Typography
+          className="text-2xl normal-case"
+        >
+          Clicca qui per regalarci
+        </Typography>
+        <Typography
+          className="text-2xl normal-case"
+        >
+          un'esperienza indimenticabile!
+        </Typography>
       </Button>
       <Dialog open={open} handler={handleOpen}>
-        <DialogHeader>Its a simple modal.</DialogHeader>
+        <DialogHeader>Per la nostra luna di miele in Giappone</DialogHeader>
         <DialogBody>
-          The key to more success is to have a lot of pillows. Put it this way,
-          it took me twenty five years to get these plants, twenty five years of
-          blood sweat and tears, and I&apos;m never giving up, I&apos;m just
-          getting started. I&apos;m up to something. Fan luv.
+          <Typography>
+            DATI BANCA:
+            NOME
+            IBAN
+          </Typography>
         </DialogBody>
         <DialogFooter>
-          <Button
-            variant="text"
-            color="red"
-            onClick={handleOpen}
-            className="mr-1"
-          >
-            <span>Cancel</span>
-          </Button>
           <Button variant="gradient" color="green" onClick={handleOpen}>
-            <span>Confirm</span>
+            <span>Chiudi</span>
           </Button>
         </DialogFooter>
       </Dialog>
