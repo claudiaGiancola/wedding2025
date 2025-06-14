@@ -10,8 +10,22 @@ import {
 
 import {
   HomeIcon,
-  BellIcon,
-  CurrencyDollarIcon,
+  CakeIcon,
+  FilmIcon,
+  FireIcon,
+  GiftIcon,
+  HeartIcon,
+  CameraIcon,
+  LightBulbIcon,
+  MegaphoneIcon,
+  PhotoIcon,
+  SparklesIcon,
+  StarIcon,
+  MoonIcon,
+  UserGroupIcon,
+  UsersIcon,
+  MusicalNoteIcon,
+  HomeModernIcon
 } from "@heroicons/react/24/solid";
 
 import MapWithMarker from './map';
@@ -24,16 +38,16 @@ export function TimelineWithIcon() {
           <TimelineConnector />
           <TimelineHeader>
             <TimelineIcon className="p-2">
-              <HomeIcon className="h-4 w-4" />
+              <HeartIcon className="h-6 w-6" />
             </TimelineIcon>
             <Typography variant="h5" color="blue-gray">
               6 Settembre | 16:30 | Cerimonia
             </Typography>
           </TimelineHeader>
-          <TimelineBody className="pb-8 flex flex-row">
-            <Typography color="gary" className="font-normal text-gray-600">
+          <TimelineBody className="pb-8">
+            {/* <Typography color="gary" className="font-normal text-gray-600">
               The key to more success is to have a lot of pillows.
-            </Typography>
+            </Typography> */}
             <MapWithMarker
               position={[42.15874995882924, 12.224626909233246]}
               popupText="CERIMONIA: Via della Rena, 99, 00069 Trevignano Romano RM, Italy"
@@ -45,16 +59,16 @@ export function TimelineWithIcon() {
         <TimelineConnector />
           <TimelineHeader>
             <TimelineIcon className="p-2">
-              <BellIcon className="h-4 w-4" />
+              <CakeIcon className="h-6 w-6" />
             </TimelineIcon>
             <Typography variant="h5" color="blue-gray">
               6 Settembre | 18:00 | Ricevimento
             </Typography>
           </TimelineHeader>
           <TimelineBody className="pb-8">
-            <Typography color="gary" className="font-normal text-gray-600">
+            {/* <Typography color="gary" className="font-normal text-gray-600">
               The key to more success is to have a lot of pillows.
-            </Typography>
+            </Typography> */}
             <MapWithMarker
               position={[42.16498943948103, 12.229883605276306]}
               popupText="RICEVIMENTO: Il Frantoio, Via Sutri, 3, 00069 Trevignano Romano RM, Italy"
@@ -62,11 +76,11 @@ export function TimelineWithIcon() {
             />
           </TimelineBody>
         </TimelineItem>
-        <TimelineItem>
+        {/* <TimelineItem>
         <TimelineConnector />
           <TimelineHeader>
             <TimelineIcon className="p-2">
-              <CurrencyDollarIcon className="h-4 w-4" />
+              <CakeIcon className="h-4 w-4" />
             </TimelineIcon>
             <Typography variant="h5" color="blue-gray">
               6 Settembre | 19:30 | Cena
@@ -77,37 +91,37 @@ export function TimelineWithIcon() {
               The key to more success is to have a lot of pillows.
             </Typography>
           </TimelineBody>
-        </TimelineItem>
+        </TimelineItem> */}
         <TimelineItem>
         <TimelineConnector />
           <TimelineHeader>
             <TimelineIcon className="p-2">
-              <CurrencyDollarIcon className="h-4 w-4" />
+              <MusicalNoteIcon className="h-6 w-6" />
             </TimelineIcon>
             <Typography variant="h5" color="blue-gray">
               6 Settembre | 22:00 - 01:30 | Party
             </Typography>
           </TimelineHeader>
-          <TimelineBody>
-            <Typography color="gary" className="font-normal text-gray-600">
+          <TimelineBody className="pb-8">
+            {/* <Typography color="gary" className="font-normal text-gray-600">
               The key to more success is to have a lot of pillows.
-            </Typography>
+            </Typography> */}
           </TimelineBody>
         </TimelineItem>
         <TimelineItem>
           <TimelineConnector />
           <TimelineHeader>
             <TimelineIcon className="p-2">
-              <HomeIcon className="h-4 w-4" />
+              <HomeIcon className="h-6 w-6" />
             </TimelineIcon>
             <Typography variant="h5" color="blue-gray">
               7 Settembre | 11:30 | Brunch (e bagno al lago!)
             </Typography>
           </TimelineHeader>
-          <TimelineBody className="pb-8 flex flex-row">
-            <Typography color="gary" className="font-normal text-gray-600">
+          <TimelineBody className="pb-8">
+            {/* <Typography color="gary" className="font-normal text-gray-600">
               The key to more success is to have a lot of pillows.
-            </Typography>
+            </Typography> */}
             <MapWithMarker
               position={[42.15874995882924, 12.224626909233246]}
               popupText="CERIMONIA: Via della Rena, 99, 00069 Trevignano Romano RM, Italy"
@@ -118,16 +132,16 @@ export function TimelineWithIcon() {
         <TimelineItem>
           <TimelineHeader>
             <TimelineIcon className="p-2">
-              <HomeIcon className="h-4 w-4" />
+              <SparklesIcon className="h-6 w-6" />
             </TimelineIcon>
             <Typography variant="h5" color="blue-gray">
               Saluti!
             </Typography>
           </TimelineHeader>
-          <TimelineBody className="pb-8 flex flex-row">
-            <Typography color="gary" className="font-normal text-gray-600">
+          <TimelineBody className="flex flex-row">
+            {/* <Typography color="gary" className="font-normal text-gray-600">
               The key to more success is to have a lot of pillows.
-            </Typography>
+            </Typography> */}
           </TimelineBody>
         </TimelineItem>
       </Timeline>

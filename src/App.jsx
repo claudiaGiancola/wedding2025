@@ -12,17 +12,18 @@ function App() {
     <>
       <StickyNavbar />
 
-      <div className='relative z-0 flex flex-col items-center justify-center gap-4'>
+      <div className='relative z-0 flex flex-col items-center justify-center gap-10'>
 
         <ImgWithBlurredCaption />
 
         <TimelineWithIcon />
 
+        <ImgWithText />
+
       </div>
-              
-      <ImgWithText />
 
       <SimpleFooter />
+
     </>
   )
 }

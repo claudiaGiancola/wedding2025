@@ -29,7 +29,7 @@ export function ImgWithText() {
                 src="src\assets\Invito Matrimonio regalo modified.png"
                 className=" w-full object-cover"
             />
-            <div className="absolute inset-0 flex flex-col gap-4 justify-center items-center py-4 px-64">
+            <div className="absolute inset-0 flex flex-col gap-4 justify-center items-center py-4 px-64 pb-6">
                     {/* <DialogDefault /> */}
                     <Typography variant="h3" color="green" textGradient>
                         Regalaci...
