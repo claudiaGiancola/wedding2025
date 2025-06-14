@@ -34,8 +34,10 @@ export function ImgWithText() {
                     <Typography variant="h3" color="green" textGradient>
                         Regalaci...
                     </Typography>
-                    <ModalWithImage imgSrc={"src/assets/Hokusai cherry blossoms.jpeg"}/>
-                    <ModalWithImage imgSrc="https://preview.redd.it/i-made-a-thermomix-drawing-yesterday-v0-7ztzgb8eh2w81.jpg?auto=webp&s=7e813abc716908b69685fc7184da5d6f9130b24b"/>
+
+                    <ModalWithImage imgSrc={"src/assets/cherry blossom illustration.jpg"} textHeader={"Un viaggio indimenticabile!"} nome={"Claudia Giancola"} iban={"BE40 9053 8536 7263"} banca={"Wise, Rue du Trône 100, 3rd floor, Brussels, 1050, Belgium"}/>
+
+                    <ModalWithImage imgSrc={"https://preview.redd.it/i-made-a-thermomix-drawing-yesterday-v0-7ztzgb8eh2w81.jpg?auto=webp&s=7e813abc716908b69685fc7184da5d6f9130b24b"} textHeader={"Un gadget fenomenale!"} nome={"Giada Sponzilli"} iban={"ITXXXXXX"} banca={"CheBanca!"}/>
             </div>
         </div>
     );
