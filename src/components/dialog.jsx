@@ -139,19 +139,21 @@ export function DialogDefault() {
         </Typography>
       </Button>
       <Dialog open={open} handler={handleOpen}>
-        <DialogHeader>Per la nostra luna di miele in Giappone</DialogHeader>
-        <DialogBody>
-          <Typography>
-            DATI BANCA:
-            NOME
-            IBAN
-          </Typography>
-        </DialogBody>
-        <DialogFooter>
-          <Button variant="gradient" color="green" onClick={handleOpen}>
-            <span>Chiudi</span>
-          </Button>
-        </DialogFooter>
+        <div className="flex flex-col items-center justify-center h-full">
+          <DialogHeader>Per la nostra luna di miele in Giappone</DialogHeader>
+          <DialogBody>
+            <Typography>
+              <div>DATI BANCA:</div>
+              <div>NOME:</div>
+              <div>IBAN:</div>
+            </Typography>
+          </DialogBody>
+          <DialogFooter>
+            <Button variant="gradient" color="green" onClick={handleOpen}>
+              <span>Chiudi</span>
+            </Button>
+          </DialogFooter>
+        </div>
       </Dialog>
     </>
   );
