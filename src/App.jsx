@@ -14,15 +14,13 @@ function App() {
 
       <div className='relative z-0 flex flex-col items-center justify-center gap-4'>
 
-      <ImgWithBlurredCaption />
+        <ImgWithBlurredCaption />
 
         <TimelineWithIcon />
 
       </div>
-
-        {/* <TabsDefault /> */}
-        
-        <ImgWithText />
+              
+      <ImgWithText />
 
       <SimpleFooter />
     </>

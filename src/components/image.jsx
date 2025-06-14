@@ -29,11 +29,13 @@ export function ImgWithText() {
                 src="src\assets\Invito Matrimonio regalo modified.png"
                 className=" w-full object-cover"
             />
-            <div className="absolute inset-0 flex flex-col gap-4 justify-center">
-                <div className="flex justify-center gap-4">
-                    <DialogDefault />
-                    {/* <ModalWithImage /> */}
-                </div>
+            <div className="absolute inset-0 flex flex-col gap-4 justify-center items-center py-4 px-64">
+                    {/* <DialogDefault /> */}
+                    <Typography variant="h3" color="green" textGradient>
+                        Regalaci...
+                    </Typography>
+                    <ModalWithImage imgSrc={"src/assets/Hokusai cherry blossoms.jpeg"}/>
+                    <ModalWithImage imgSrc="https://preview.redd.it/i-made-a-thermomix-drawing-yesterday-v0-7ztzgb8eh2w81.jpg?auto=webp&s=7e813abc716908b69685fc7184da5d6f9130b24b"/>
             </div>
         </div>
     );

@@ -13,7 +13,7 @@ import {
 } from "@material-tailwind/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 
-export function ModalWithImage() {
+export function ModalWithImage({imgSrc}) {
   const [open, setOpen] = React.useState(false);
   const [isFavorite, setIsFavorite] = React.useState(false);
 
@@ -23,13 +23,13 @@ export function ModalWithImage() {
   return (
     <>
       <Card
-        className="h-64 w-96 cursor-pointer overflow-hidden transition-opacity hover:opacity-90"
+        className="h-64 w-[32vw] xl:w-96 cursor-pointer overflow-hidden transition-opacity hover:border-4 hover:border-solid hover:border-orange-500"
         onClick={handleOpen}
       >
         <img
-          alt="nature"
+          alt="gift"
           className="h-full w-full object-cover object-center"
-          src="https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2717&q=80"
+          src={imgSrc}
         />
       </Card>
       <Dialog size="xl" open={open} handler={handleOpen}>
