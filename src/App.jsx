@@ -9,22 +9,28 @@ import { TimelineWithIcon } from './components/timeline';
 function App() {
 
   return (
-    <>
+    <div>
+
       <StickyNavbar />
 
-      <div className='relative z-0 flex flex-col items-center justify-center gap-10'>
+      <div className="relative z-0 flex flex-col items-center justify-center">
 
-        <ImgWithBlurredCaption />
+        <section id="top-illustration" className="gap-0 scroll-mt-16">
+          <ImgWithBlurredCaption />
+        </section>
 
-        <TimelineWithIcon />
+        <section id="timeline" className="gap-0 mt-10 scroll-mt-16">
+          <TimelineWithIcon />
+        </section>
 
-        <ImgWithText />
-
+        <section id="regalo" className="gap-0 mt-10 scroll-mt-16">
+          <ImgWithText />
+        </section>
       </div>
 
       <SimpleFooter />
 
-    </>
+    </div>
   )
 }
 

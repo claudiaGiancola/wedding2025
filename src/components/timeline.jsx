@@ -56,7 +56,7 @@ export function TimelineWithIcon() {
           </TimelineBody>
         </TimelineItem>
         <TimelineItem>
-        <TimelineConnector />
+          <TimelineConnector />
           <TimelineHeader>
             <TimelineIcon className="p-2">
               <CakeIcon className="h-6 w-6" />
@@ -76,24 +76,8 @@ export function TimelineWithIcon() {
             />
           </TimelineBody>
         </TimelineItem>
-        {/* <TimelineItem>
-        <TimelineConnector />
-          <TimelineHeader>
-            <TimelineIcon className="p-2">
-              <CakeIcon className="h-4 w-4" />
-            </TimelineIcon>
-            <Typography variant="h5" color="blue-gray">
-              6 Settembre | 19:30 | Cena
-            </Typography>
-          </TimelineHeader>
-          <TimelineBody>
-            <Typography color="gary" className="font-normal text-gray-600">
-              The key to more success is to have a lot of pillows.
-            </Typography>
-          </TimelineBody>
-        </TimelineItem> */}
         <TimelineItem>
-        <TimelineConnector />
+          <TimelineConnector />
           <TimelineHeader>
             <TimelineIcon className="p-2">
               <MusicalNoteIcon className="h-6 w-6" />
@@ -119,14 +103,16 @@ export function TimelineWithIcon() {
             </Typography>
           </TimelineHeader>
           <TimelineBody className="pb-8">
-            {/* <Typography color="gary" className="font-normal text-gray-600">
-              The key to more success is to have a lot of pillows.
-            </Typography> */}
-            <MapWithMarker
-              position={[42.15874995882924, 12.224626909233246]}
-              popupText="CERIMONIA: Via della Rena, 99, 00069 Trevignano Romano RM, Italy"
-              markerColour="green"
-            />
+            <div className="flex flex-col items-start gap-2">
+              <Typography color="gray" className="text-gray-600">
+                Per chi ha ancora energie e voglia di festeggiare!
+              </Typography>
+              <MapWithMarker
+                position={[42.15874995882924, 12.224626909233246]}
+                popupText="CERIMONIA: Via della Rena, 99, 00069 Trevignano Romano RM, Italy"
+                markerColour="green"
+              />
+            </div>
           </TimelineBody>
         </TimelineItem>
         <TimelineItem>
