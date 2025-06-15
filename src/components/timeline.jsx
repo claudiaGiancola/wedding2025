@@ -32,7 +32,7 @@ import MapWithMarker from './map';
 
 export function TimelineWithIcon() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="">
       <Timeline>
         <TimelineItem>
           <TimelineConnector />
@@ -104,7 +104,7 @@ export function TimelineWithIcon() {
           </TimelineHeader>
           <TimelineBody className="pb-8">
             <div className="flex flex-col gap-2">
-              <Typography color="gray" className="text-gray-600 text-left">
+              <Typography color="gray" className="text-gray-600 text-left w-[60%]">
                 Per chi ha ancora energie e voglia di festeggiare (e magari fare un bagno al lago)!
               </Typography>
               <MapWithMarker
