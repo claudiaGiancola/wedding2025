@@ -30,7 +30,7 @@ export function ModalWithImage({ imgSrc, textHeader, nome, iban, banca }) {
           </Typography>
         </DialogHeader>
         <DialogBody>
-          <div className="flex justify-center items-center gap-4">
+          <div className="flex items-center gap-6">
             <img
               alt="nature"
               className="h-[36rem] w-[60%] rounded-lg object-cover object-center"
