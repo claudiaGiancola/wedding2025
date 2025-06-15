@@ -32,7 +32,7 @@ import MapWithMarker from './map';
 
 export function TimelineWithIcon() {
   return (
-    <div className="">
+    <div className="px-8">
       <Timeline>
         <TimelineItem>
           <TimelineConnector />
@@ -40,7 +40,7 @@ export function TimelineWithIcon() {
             <TimelineIcon className="p-2">
               <HeartIcon className="h-6 w-6" />
             </TimelineIcon>
-            <Typography variant="h5" color="blue-gray">
+            <Typography variant="h5" color="blue-gray" className="text-left">
               6 Settembre | 16:30 | Cerimonia
             </Typography>
           </TimelineHeader>
@@ -61,7 +61,7 @@ export function TimelineWithIcon() {
             <TimelineIcon className="p-2">
               <CakeIcon className="h-6 w-6" />
             </TimelineIcon>
-            <Typography variant="h5" color="blue-gray">
+            <Typography variant="h5" color="blue-gray" className="text-left">
               6 Settembre | 18:00 | Ricevimento
             </Typography>
           </TimelineHeader>
@@ -82,7 +82,7 @@ export function TimelineWithIcon() {
             <TimelineIcon className="p-2">
               <MusicalNoteIcon className="h-6 w-6" />
             </TimelineIcon>
-            <Typography variant="h5" color="blue-gray">
+            <Typography variant="h5" color="blue-gray" className="text-left">
               6 Settembre | 22:00 - 01:30 | Party
             </Typography>
           </TimelineHeader>
@@ -98,7 +98,7 @@ export function TimelineWithIcon() {
             <TimelineIcon className="p-2">
               <HomeIcon className="h-6 w-6" />
             </TimelineIcon>
-            <Typography variant="h5" color="blue-gray">
+            <Typography variant="h5" color="blue-gray" className="text-left">
               7 Settembre | 11:30 | Rinfresco
             </Typography>
           </TimelineHeader>
@@ -120,15 +120,15 @@ export function TimelineWithIcon() {
             <TimelineIcon className="p-2">
               <SparklesIcon className="h-6 w-6" />
             </TimelineIcon>
-            <Typography variant="h5" color="blue-gray">
+            <Typography variant="h5" color="blue-gray" className="text-left">
               Saluti!
             </Typography>
           </TimelineHeader>
-          <TimelineBody className="flex flex-row">
-            {/* <Typography color="gary" className="font-normal text-gray-600">
+          {/* <TimelineBody className="flex flex-row">
+            <Typography color="gary" className="font-normal text-gray-600">
               The key to more success is to have a lot of pillows.
-            </Typography> */}
-          </TimelineBody>
+            </Typography>
+          </TimelineBody> */}
         </TimelineItem>
       </Timeline>
     </div>
