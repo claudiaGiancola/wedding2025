@@ -32,7 +32,7 @@ import MapWithMarker from './map';
 
 export function TimelineWithIcon() {
   return (
-    <div className="w-[32rem]">
+    <div className="flex justify-center items-center">
       <Timeline>
         <TimelineItem>
           <TimelineConnector />
@@ -99,13 +99,13 @@ export function TimelineWithIcon() {
               <HomeIcon className="h-6 w-6" />
             </TimelineIcon>
             <Typography variant="h5" color="blue-gray">
-              7 Settembre | 11:30 | Brunch (e bagno al lago!)
+              7 Settembre | 11:30 | Rinfresco
             </Typography>
           </TimelineHeader>
           <TimelineBody className="pb-8">
-            <div className="flex flex-col items-start gap-2">
-              <Typography color="gray" className="text-gray-600">
-                Per chi ha ancora energie e voglia di festeggiare!
+            <div className="flex flex-col gap-2">
+              <Typography color="gray" className="text-gray-600 text-left">
+                Per chi ha ancora energie e voglia di festeggiare (e magari fare un bagno al lago)!
               </Typography>
               <MapWithMarker
                 position={[42.15874995882924, 12.224626909233246]}
