@@ -6,6 +6,9 @@ import {
 import { DialogDefault, DialogWithBillingForm, ModalWithImage } from "./dialog";
 
 import invitoMatrimonio from '../assets/Invito Matrimonio cropped.jpeg';
+import invitoMatrimonioRegalo from '../assets/Invito Matrimonio regalo modified.png';
+import CherryBlossom from '../assets/cherry blossom illustration.jpg';
+// import invitoMatrimonioRegalo from '../assets/Invito Matrimonio regalo modified.png';
 
 export function ImgWithBlurredCaption() {
     return (
@@ -32,9 +35,13 @@ export function ImgWithBlurredCaption() {
 export function ImgWithText() {
     return (
         <div className="relative">
-            <img
+            {/* <img
                 src="src\assets\Invito Matrimonio regalo modified.png"
                 className=" w-full object-cover"
+            /> */}
+            <img
+            className=" w-full object-cover"
+            src={invitoMatrimonioRegalo} 
             />
             <div className="absolute inset-0 flex flex-col gap-4 justify-center items-center py-4 sm:px-64 pb-6">
                     {/* <DialogDefault /> */}
@@ -42,7 +49,7 @@ export function ImgWithText() {
                         Regalaci...
                     </Typography>
 
-                    <ModalWithImage imgSrc={"src/assets/cherry blossom illustration.jpg"} textHeader={"Un viaggio indimenticabile!"} nome={"Claudia Giancola"} iban={"BE40 9053 8536 7263"} banca={"Wise, Rue du Trône 100, 3rd floor, Brussels, 1050, Belgium"}/>
+                    <ModalWithImage imgSrc={CherryBlossom} textHeader={"Un viaggio indimenticabile!"} nome={"Claudia Giancola"} iban={"BE40 9053 8536 7263"} banca={"Wise, Rue du Trône 100, 3rd floor, Brussels, 1050, Belgium"}/>
 
                     <ModalWithImage imgSrc={"https://preview.redd.it/i-made-a-thermomix-drawing-yesterday-v0-7ztzgb8eh2w81.jpg?auto=webp&s=7e813abc716908b69685fc7184da5d6f9130b24b"} textHeader={"Un gadget fenomenale!"} nome={"Giada Sponzilli"} iban={"ITXXXXXX"} banca={"CheBanca!"}/>
             </div>
