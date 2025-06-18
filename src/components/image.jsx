@@ -23,7 +23,9 @@ export function ImgWithBlurredCaption() {
             src={invitoMatrimonio} 
             alt="nature image"
             />
-            <figcaption className="absolute bottom-4 left-2/4 flex w-[38vw] -translate-x-2/4 justify-center rounded-xl border bg-white/60 py-0.5 shadow-lg shadow-black/5 backdrop-blur-sm">
+            <figcaption className=" flex justify-center 
+    w-full md:w-[50vw] lg:w-[38vw] 
+    static md:absolute md:bottom-4 md:left-2/4 md:-translate-x-2/4  md:rounded-xl md:border md:bg-white/60 md:py-0.5 md:shadow-lg md:shadow-black/5 md:backdrop-blur-sm ">
                 <div>
                     <Countdown />
                 </div>

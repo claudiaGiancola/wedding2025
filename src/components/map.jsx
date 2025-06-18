@@ -22,7 +22,7 @@ console.log("srcgooglemap:", srcgooglemap);
                 title="Google Maps"
                 src={srcgooglemap}
                 width="100%"
-                height="600"
+                className="h-44 sm:h-72"
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
