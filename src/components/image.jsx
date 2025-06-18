@@ -5,13 +5,20 @@ import {
 } from "@material-tailwind/react";
 import { DialogDefault, DialogWithBillingForm, ModalWithImage } from "./dialog";
 
+import invitoMatrimonio from '../assets/Invito Matrimonio cropped.jpeg';
+
 export function ImgWithBlurredCaption() {
     return (
         <figure className="relative w-full rounded-lg">
-            <img
+            {/* <img
                 className="h-full w-full rounded-lg object-cover object-center"
                 src="src\assets\Invito Matrimonio cropped.jpeg"
                 alt="nature image"
+            /> */}
+            <img
+            className="h-full w-full rounded-lg object-cover object-center"
+            src={invitoMatrimonio} 
+            alt="nature image"
             />
             <figcaption className="absolute bottom-4 left-2/4 flex w-[38vw] -translate-x-2/4 justify-center rounded-xl border bg-white/60 py-0.5 shadow-lg shadow-black/5 backdrop-blur-sm">
                 <div>
