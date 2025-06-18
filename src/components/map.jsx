@@ -21,7 +21,7 @@ console.log("srcgooglemap:", srcgooglemap);
             <iframe
                 title="Google Maps"
                 src={srcgooglemap}
-                width="800"
+                width="100%"
                 height="600"
                 style={{ border: 0 }}
                 allowFullScreen=""

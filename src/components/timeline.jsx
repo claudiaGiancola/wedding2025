@@ -44,7 +44,7 @@ export function TimelineWithIcon() {
               6 Settembre | 16:30 | Cerimonia
             </Typography>
           </TimelineHeader>
-          <TimelineBody className="pb-8 flex flex-col items-center">
+          <TimelineBody className="pl-8 pb-8 flex flex-col">
             {/* <Typography color="gary" className="font-normal text-gray-600">
               The key to more success is to have a lot of pillows.
             </Typography> */}
@@ -66,7 +66,7 @@ export function TimelineWithIcon() {
               6 Settembre | 18:00 | Ricevimento
             </Typography>
           </TimelineHeader>
-          <TimelineBody className="pb-8 flex flex-col items-center">
+          <TimelineBody className="pl-8 pb-8 flex flex-col">
             {/* <Typography color="gary" className="font-normal text-gray-600">
               The key to more success is to have a lot of pillows.
             </Typography> */}
@@ -104,18 +104,16 @@ export function TimelineWithIcon() {
               7 Settembre | 11:30 | Rinfresco
             </Typography>
           </TimelineHeader>
-          <TimelineBody className="pb-8">
-            <div className="flex flex-col gap-2">
-              <Typography color="gray" className="text-gray-600 text-left sm:w-[60%]">
-                Per chi ha ancora energie e voglia di festeggiare (e magari fare un bagno al lago)!
-              </Typography>
-              <MapWithMarker
-                // position={[42.15874995882924, 12.224626909233246]}
-                // popupText="CERIMONIA: Via della Rena, 99, 00069 Trevignano Romano RM, Italy"
-                // markerColour="green"
-                srcgooglemap="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5915.209887606379!2d12.22462!3d42.15874!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f48ee4325b191%3A0x5160683cbff8a03!2sVia%20della%20Rena%2C%2099%2C%2000069%20Trevignano%20Romano%20RM%2C%20Italia!5e0!3m2!1sit!2suk!4v1750257112136!5m2!1sit!2suk"
-              />
-            </div>
+          <TimelineBody className="pl-8 pb-8 flex flex-col">
+            <Typography color="gray" className="text-gray-600 text-left pb-4">
+              Per chi ha ancora energie e voglia di festeggiare (e magari fare un bagno al lago)!
+            </Typography>
+            <MapWithMarker
+              // position={[42.15874995882924, 12.224626909233246]}
+              // popupText="CERIMONIA: Via della Rena, 99, 00069 Trevignano Romano RM, Italy"
+              // markerColour="green"
+              srcgooglemap="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5915.209887606379!2d12.22462!3d42.15874!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f48ee4325b191%3A0x5160683cbff8a03!2sVia%20della%20Rena%2C%2099%2C%2000069%20Trevignano%20Romano%20RM%2C%20Italia!5e0!3m2!1sit!2suk!4v1750257112136!5m2!1sit!2suk"
+            />
           </TimelineBody>
         </TimelineItem>
         <TimelineItem>
