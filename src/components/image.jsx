@@ -18,11 +18,11 @@ export function ImgWithBlurredCaption() {
                 src="src\assets\Invito Matrimonio cropped.jpeg"
                 alt="nature image"
             /> */}
-            <img
+            {/* <img
             className="h-full w-full rounded-lg object-cover object-center"
             src={invitoMatrimonio} 
             alt="nature image"
-            />
+            /> */}
             <figcaption className=" flex justify-center 
     w-full md:w-[50vw] lg:w-[38vw] 
     static md:absolute md:bottom-4 md:left-2/4 md:-translate-x-2/4  md:rounded-xl md:border md:bg-white/60 md:py-0.5 md:shadow-lg md:shadow-black/5 md:backdrop-blur-sm ">
