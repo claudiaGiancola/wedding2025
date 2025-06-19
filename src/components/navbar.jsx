@@ -9,29 +9,26 @@ import {
 export function StickyNavbar() {
 
     return (
-        <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 flex justify-center gap-x-4">
+        <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-4 sm:py-2 flex justify-center gap-x-4">
             <Typography
-                variant="small"
                 color="blue-gray"
-                className="p-1 font-normal"
+                className="p-1 font-normal text-lg sm:text-sm"
             >
                 <a href="#top-illustration">
                     Home
                 </a>
             </Typography>
             <Typography
-                variant="small"
                 color="blue-gray"
-                className="p-1 font-normal"
+                className="p-1 font-normal text-lg sm:text-sm"
             >
                 <a href="#timeline">
                     Timeline
                 </a>
             </Typography>
             <Typography
-                variant="small"
                 color="blue-gray"
-                className="p-1 font-normal"
+                className="p-1 font-normal text-lg sm:text-sm"
             >
                 <a href="#regalo">
                     Gift
