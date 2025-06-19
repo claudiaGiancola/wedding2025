@@ -24,10 +24,13 @@ export function ModalWithImage({ imgSrc, textHeader, nome, iban, banca }) {
         <img alt="gift" className="h-full w-full object-cover object-center" src={imgSrc}/>
       </Card>
       <Dialog size="l" open={open} handler={handleOpen}>
-        <DialogHeader className="pb-0 justify-center">
-          <Typography variant="h3">
+        <DialogHeader className="pb-0 flex justify-between">
+          <Typography variant="h3" className="px-[8%]">
             {textHeader}
           </Typography>
+          <Button variant="outlined" color="green" onClick={handleOpen}>
+            <XMarkIcon className="h-4 w-4 stroke-2" />
+          </Button>
         </DialogHeader>
         <DialogBody>
           <div className="flex items-center gap-6">

@@ -47,7 +47,7 @@ export function ImgWithText() {
             />
             <div className="absolute inset-0 flex flex-col gap-4 justify-center items-center py-4 sm:px-64 pb-6">
                     {/* <DialogDefault /> */}
-                    <Typography variant="h6" color="green" className="text-2xl sm:text-4xl">
+                    <Typography variant="h6" color="grey" className="text-2xl sm:text-4xl">
                         Regalaci...
                     </Typography>
 
