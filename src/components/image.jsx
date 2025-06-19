@@ -1,14 +1,11 @@
 import Countdown from "./countdown";
 import {
     Typography,
-    Button,
 } from "@material-tailwind/react";
-import { DialogDefault, DialogWithBillingForm, ModalWithImage } from "./dialog";
+import { ModalWithImage } from "./dialog";
 
-import invitoMatrimonio from '../assets/Invito Matrimonio cropped.jpeg';
 import invitoMatrimonioRegalo from '../assets/Invito Matrimonio regalo modified.png';
 import CherryBlossom from '../assets/cherry blossom illustration.jpg';
-// import invitoMatrimonioRegalo from '../assets/Invito Matrimonio regalo modified.png';
 
 export function ImgWithBlurredCaption() {
     return (
