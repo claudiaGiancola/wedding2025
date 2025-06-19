@@ -51,7 +51,7 @@ export function StepperWithContent() {
                             color={activeStep === 1 ? "blue-gray" : "gray"}
                             className="font-normal"
                         >
-                            Details about yout account.
+                            Details about your account.
                         </Typography>
                     </div>
                 </Step>

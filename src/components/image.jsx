@@ -13,16 +13,6 @@ import CherryBlossom from '../assets/cherry blossom illustration.jpg';
 export function ImgWithBlurredCaption() {
     return (
         <figure className="relative w-full rounded-lg">
-            {/* <img
-                className="h-full w-full rounded-lg object-cover object-center"
-                src="src\assets\Invito Matrimonio cropped.jpeg"
-                alt="nature image"
-            /> */}
-            {/* <img
-            className="h-full w-full rounded-lg object-cover object-center"
-            src={invitoMatrimonio} 
-            alt="nature image"
-            /> */}
             <figcaption className=" flex justify-center 
     w-full md:w-[50vw] lg:w-[38vw] 
     static md:absolute md:bottom-4 md:left-2/4 md:-translate-x-2/4  md:rounded-xl md:border md:bg-white/60 md:py-0.5 md:shadow-lg md:shadow-black/5 md:backdrop-blur-sm ">
@@ -37,16 +27,11 @@ export function ImgWithBlurredCaption() {
 export function ImgWithText() {
     return (
         <div className="relative">
-            {/* <img
-                src="src\assets\Invito Matrimonio regalo modified.png"
-                className=" w-full object-cover"
-            /> */}
             <img
-            className=" w-full object-cover"
+            className="w-full sm:object-cover h-[34rem] sm:h-full"
             src={invitoMatrimonioRegalo} 
             />
             <div className="absolute inset-0 flex flex-col gap-4 justify-center items-center py-4 sm:px-64 pb-6">
-                    {/* <DialogDefault /> */}
                     <Typography variant="h6" color="grey" className="text-2xl sm:text-4xl">
                         Regalaci...
                     </Typography>
