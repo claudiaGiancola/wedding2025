@@ -5,22 +5,11 @@ import { ImgWithBlurredCaption, ImgWithText } from './components/image';
 import { StickyNavbar } from './components/navbar';
 import { HeroParallax } from './components/parallax';
 import { TimelineWithIcon } from './components/timeline';
-// import invitoMatrimonio from './assets/Invito Matrimonio cropped.jpeg';
-
 
 function App() {
 
-  // const backgroundStyle = {
-  //   backgroundImage: `url(${invitoMatrimonio})`,
-  //   backgroundSize: 'cover',
-  //   backgroundAttachment: 'fixed',
-  //   backgroundPosition: 'center',
-  //   backgroundRepeat: 'no-repeat',
-  //   minHeight: '100vh',
-  // };
-
   return (
-    // <div style={backgroundStyle}>
+
     <div>
 
       <StickyNavbar />
