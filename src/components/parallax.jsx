@@ -53,7 +53,7 @@ export function HeroParallax() {
                     zIndex: -1,
                 }}
             />
-            <div className="pb-32 z-10">
+            <div className="pb-32">
                 <Countdown />
             </div>
         </div>
