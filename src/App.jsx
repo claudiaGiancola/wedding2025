@@ -21,17 +21,17 @@ function App() {
 
       <div className="relative z-0 flex flex-col items-center justify-center">
 
-        <section id="timeline" className="gap-0 scroll-mt-20 mt-6">
+        <section id="timeline" className="gap-0 scroll-mt-20 mt-8 w-full">
 
-          <Typography variant="lead" color="grey" className="text-2xl sm:text-4xl bg-orange-50 p-4 w-screen text-blue-gray-800">
+          <Typography variant="lead" color="grey" className="text-2xl sm:text-4xl bg-orange-50 p-4 text-blue-gray-800">
             Timeline
           </Typography>
 
-          <TimelineWithIcon />
+          <TimelineWithIcon/>
         </section>
 
-        <section id="regalo" className="gap-0 mt-12 scroll-mt-20 mb-6 sm:mb-8">
-          <Typography variant="lead" color="grey" className="text-2xl sm:text-4xl bg-orange-50 p-4 w-screen text-blue-gray-800">
+        <section id="regalo" className="gap-0 mt-12 scroll-mt-20 mb-6 sm:mb-8 w-full">
+          <Typography variant="lead" color="grey" className="text-2xl sm:text-4xl bg-orange-50 p-4 text-blue-gray-800">
             Regalaci...
           </Typography>
         </section>
