@@ -20,8 +20,15 @@ export function ModalWithImage({ imgSrc, textHeader, nome, iban, banca }) {
 
   return (
     <>
-      <Card className="h-64 w-[32vw] xl:w-96 cursor-pointer overflow-hidden transition-opacity hover:border-4 hover:border-solid hover:border-orange-500" onClick={handleOpen}>
-        <img alt="gift" className="h-full w-full object-cover object-center" src={imgSrc}/>
+
+      <Card className="h-64 w-80 sm:w-96 sm:h-72 cursor-pointer overflow-hidden transition-opacity hover:border-4 hover:border-solid hover:border-orange-500" onClick={handleOpen}>
+        <Typography
+          variant="h4"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 text-white bg-black/60 px-4 py-1 rounded"
+        >
+          {textHeader}
+        </Typography>
+        <img alt="gift" className="h-full w-full object-cover object-center" src={imgSrc} />
       </Card>
       <Dialog size="l" open={open} handler={handleOpen}>
         <DialogHeader className="pb-0 flex justify-between">

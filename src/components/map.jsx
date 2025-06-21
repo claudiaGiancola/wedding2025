@@ -29,8 +29,6 @@ console.log("srcgooglemap:", srcgooglemap);
                 referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
 
-
-
         </div>
     )
 }
