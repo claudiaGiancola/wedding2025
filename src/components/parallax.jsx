@@ -1,6 +1,9 @@
 import { useRef, useEffect } from 'react';
 import invitoMatrimonio from '../assets/Invito Matrimonio cropped.jpeg';
+import invitoMatrimonioRevealed from '../assets/Invito Matrimonio regalo modified.png';
+
 import Countdown from "./countdown";
+import { Typography } from '@material-tailwind/react';
 
 export function HeroParallax() {
     const backgroundRef = useRef(null);
@@ -19,7 +22,7 @@ export function HeroParallax() {
 
         const onScroll = () => {
             const offset = window.pageYOffset;
-            bgElem.style.backgroundPositionY = `${-offset * 0.5}px`; // Background
+            bgElem.style.backgroundPositionY = `${-offset * 0.5}px`;
         };
 
         window.addEventListener('scroll', onScroll, { passive: true });
@@ -35,6 +38,22 @@ export function HeroParallax() {
             <div className="pb-32">
                 <Countdown />
             </div>
+        </div>
+    );
+}
+
+export function ParallaxReveal() {
+    const backgroundStyle = {
+        backgroundImage: `url(${invitoMatrimonio})`,
+        backgroundSize: 'contain',
+        backgroundAttachment: 'fixed',
+        backgroundPosition: 'center',
+        // backgroundRepeat: 'no-repeat',
+        minHeight: '25vh',
+    };
+
+    return (
+        <div style={backgroundStyle} className='flex flex-col justify-center items-center'>
         </div>
     );
 }

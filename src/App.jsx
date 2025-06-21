@@ -3,7 +3,7 @@ import { Typography } from "@material-tailwind/react";
 import { SimpleFooter } from './components/footer';
 import { ImgWithText } from './components/image'
 import { StickyNavbar } from './components/navbar';
-import { HeroParallax } from './components/parallax';
+import { HeroParallax, ParallaxReveal } from './components/parallax';
 import { TimelineWithIcon } from './components/timeline';
 import { GiftButtons } from './components/giftButtons';
 
@@ -30,7 +30,7 @@ function App() {
           <TimelineWithIcon />
         </section>
 
-        <section id="regalo" className="gap-0 mt-10 scroll-mt-20 mb-2 sm:mb-4">
+        <section id="regalo" className="gap-0 mt-12 scroll-mt-20 mb-6 sm:mb-8">
           <Typography variant="lead" color="grey" className="text-2xl sm:text-4xl bg-orange-50 p-4 w-screen text-blue-gray-800">
             Regalaci...
           </Typography>
@@ -38,6 +38,8 @@ function App() {
           <GiftButtons />
 
       </div>
+
+      <ParallaxReveal />
 
       <SimpleFooter />
 
