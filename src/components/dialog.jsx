@@ -13,7 +13,7 @@ import {
 } from "@material-tailwind/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 
-export function ModalWithImage({ imgSrc, textHeader, nome, iban, banca }) {
+export function ModalWithImage({ imgSrc, textHeader, textBody, nome, iban, banca }) {
   const [open, setOpen] = React.useState(false);
 
   const handleOpen = () => setOpen((cur) => !cur);
@@ -21,11 +21,10 @@ export function ModalWithImage({ imgSrc, textHeader, nome, iban, banca }) {
   return (
     <>
 
-      <Card className="h-64 w-80 sm:w-96 sm:h-72 cursor-pointer overflow-hidden transition-opacity hover:border-4 hover:border-solid hover:border-orange-500" onClick={handleOpen}>
+      <Card className="group h-64 w-80 sm:w-96 sm:h-72 cursor-pointer overflow-hidden hover:border-4 hover:border-solid hover:border-orange-600 shadow-md hover:shadow-xl" onClick={handleOpen}>
         <Typography
           variant="h5"
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 text-blue-gray-800 bg-orange-100/65 px-4 py-1 rounded"
-        >
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 text-blue-gray-900 bg-orange-100/85 px-4 py-1 rounded group-hover:text-white group-hover:bg-orange-800">
           {textHeader}
         </Typography>
         <img alt="gift" className="h-full w-full object-cover object-center" src={imgSrc} />
@@ -33,7 +32,7 @@ export function ModalWithImage({ imgSrc, textHeader, nome, iban, banca }) {
       <Dialog size="l" open={open} handler={handleOpen}>
         <DialogHeader className="pb-0 flex justify-between">
           <Typography variant="h3" className="px-[8%]">
-            {textHeader}
+            {textBody}
           </Typography>
           <Button variant="outlined" color="green" onClick={handleOpen}>
             <XMarkIcon className="h-4 w-4 stroke-2" />
