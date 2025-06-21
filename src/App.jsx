@@ -22,23 +22,21 @@ function App() {
       <div className="relative z-0 flex flex-col items-center justify-center">
 
         <section id="timeline" className="gap-0 scroll-mt-20 mt-6">
-          
-          <Typography variant="lead" color="grey" className="text-2xl sm:text-4xl bg-orange-50 p-4 w-screen">
+
+          <Typography variant="lead" color="grey" className="text-2xl sm:text-4xl bg-orange-50 p-4 w-screen text-blue-gray-800">
             Timeline
           </Typography>
 
           <TimelineWithIcon />
         </section>
 
-        <section id="regalo" className="gap-0 mt-10 scroll-mt-20">
-
-          <Typography variant="lead" color="grey" className="text-2xl sm:text-4xl bg-orange-50 p-4 w-screen">
+        <section id="regalo" className="gap-0 mt-10 scroll-mt-20 mb-2 sm:mb-4">
+          <Typography variant="lead" color="grey" className="text-2xl sm:text-4xl bg-orange-50 p-4 w-screen text-blue-gray-800">
             Regalaci...
           </Typography>
-
+        </section>
           <GiftButtons />
 
-        </section>
       </div>
 
       <SimpleFooter />

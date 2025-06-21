@@ -32,7 +32,7 @@ import MapWithMarker from './map';
 
 export function TimelineWithIcon() {
   return (
-    <div className="px-8 pt-12">
+    <div className="px-8 pt-8">
       <Timeline className="">
         <TimelineItem>
           <TimelineConnector />

@@ -5,12 +5,12 @@ const ASCIIart = "\n\n   .         *     ,MMM8&&&.            *\n               
 export function SimpleFooter() {
     return (
         <div className="flex flex-col items-center mt-12">
-            <Typography variant="h3" className="text-gray px-6">Grazie di condividere questo momento speciale con noi!</Typography>
+            <Typography variant="h3" className="text-blue-gray-800 px-6">Grazie di condividere questo momento speciale con noi!</Typography>
             <footer className="flex flex-col items-center gap-3">
-                <pre className="text-art text-left font-mono leading-tight whitespace-pre">
+                <pre className="text-art text-left font-mono leading-tight whitespace-pre text-blue-gray-800">
                     {ASCIIart}
                 </pre>
-                <Typography variant="lead" className="mb-[2rem] text-gray">Giada&Claudia 2025</Typography>
+                <Typography variant="lead" className="mb-[2rem] text-blue-gray-800">Giada&Claudia 2025</Typography>
             </footer>
         </div>
     );

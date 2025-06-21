@@ -1,9 +1,6 @@
-import React from "react";
 import {
     Navbar,
-    MobileNav,
     Typography,
-    IconButton,
 } from "@material-tailwind/react";
 
 export function StickyNavbar() {
@@ -12,24 +9,21 @@ export function StickyNavbar() {
         <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-4 sm:py-3 flex justify-center gap-x-4">
             <Typography
                 color="blue-gray"
-                className="p-1 font-normal text-lg sm:text-sm"
-            >
+                className="p-1 font-normal text-lg sm:text-sm text-blue-gray-800">
                 <a href="#top-illustration">
                     Home
                 </a>
             </Typography>
             <Typography
                 color="blue-gray"
-                className="p-1 font-normal text-lg sm:text-sm"
-            >
+                className="p-1 font-normal text-lg sm:text-sm text-blue-gray-800">
                 <a href="#timeline">
                     Timeline
                 </a>
             </Typography>
             <Typography
                 color="blue-gray"
-                className="p-1 font-normal text-lg sm:text-sm"
-            >
+                className="p-1 font-normal text-lg sm:text-sm text-blue-gray-800">
                 <a href="#regalo">
                     Gift
                 </a>
