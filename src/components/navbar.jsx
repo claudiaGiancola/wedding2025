@@ -25,7 +25,7 @@ export function StickyNavbar() {
                 color="blue-gray"
                 className="p-1 font-normal text-lg sm:text-sm text-blue-gray-800">
                 <a href="#regalo">
-                    Gift
+                    Regalo
                 </a>
             </Typography>
         </Navbar>

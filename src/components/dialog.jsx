@@ -21,7 +21,7 @@ export function ModalWithImage({ imgSrc, textHeader, textBody, nome, iban, banca
   return (
     <>
 
-      <Card className="group h-64 w-80 sm:w-96 sm:h-72 cursor-pointer overflow-hidden hover:border-4 hover:border-solid hover:border-orange-600 shadow-md hover:shadow-xl" onClick={handleOpen}>
+      <Card className="group h-64 w-80 lg:w-96 lg:h-72 cursor-pointer overflow-hidden hover:border-4 hover:border-solid hover:border-orange-600 shadow-md hover:shadow-xl" onClick={handleOpen}>
         <Typography
           variant="h5"
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 text-blue-gray-900 bg-orange-100/85 px-4 py-1 rounded group-hover:text-white group-hover:bg-orange-800">
