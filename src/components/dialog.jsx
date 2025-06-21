@@ -24,28 +24,30 @@ export function ModalWithImage({ imgSrc, textHeader, textBody, nome, iban, banca
       <Card className="group h-64 w-80 lg:w-96 lg:h-72 cursor-pointer overflow-hidden hover:border-4 hover:border-solid hover:border-orange-600 shadow-md hover:shadow-xl" onClick={handleOpen}>
         <Typography
           variant="h5"
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 text-blue-gray-900 bg-orange-100/85 px-4 py-1 rounded group-hover:text-white group-hover:bg-orange-800">
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 text-blue-gray-900 bg-orange-100/90 px-4 py-1 rounded group-hover:text-white group-hover:bg-orange-800">
           {textHeader}
         </Typography>
         <img alt="gift" className="h-full w-full object-cover object-center" src={imgSrc} />
       </Card>
       <Dialog size="l" open={open} handler={handleOpen}>
         <DialogHeader className="pb-0 flex justify-between">
-          <Typography variant="h3" className="px-[8%]">
-            {textBody}
-          </Typography>
-          <Button variant="outlined" color="green" onClick={handleOpen}>
+          <div className="flex-1 flex justify-center">
+            <Typography variant="h3">
+              {textBody}
+            </Typography>
+          </div>
+          <Button variant="outlined" color="green" className="hover:bg-green-400 hover:text-white" onClick={handleOpen}>
             <XMarkIcon className="h-4 w-4 stroke-2" />
           </Button>
         </DialogHeader>
         <DialogBody>
-          <div className="flex items-center gap-6">
+          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 h-[70vh] sm:h-full">
             <img
               alt="nature"
-              className="h-[36rem] w-[60%] rounded-lg object-cover object-center"
+              className="h-96 w-full sm:h-[36rem] sm:w-[60%] rounded-lg object-cover object-center"
               src={imgSrc}
             />
-            <div className="flex flex-col justify-center gap-8">
+            <div className="flex flex-col justify-center gap-4 sm:gap-8">
               <div>
                 <Typography variant="paragraph" color="gray" className="font-normal">
                   NOME
