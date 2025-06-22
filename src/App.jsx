@@ -51,6 +51,7 @@ function App() {
         </div>
         <img src={invitoMatrimonioGiada} className='w-1/2 hidden sm:block'/>
       </div>
+      <section id="grazie" />
 
     </div>
   )
