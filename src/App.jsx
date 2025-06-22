@@ -15,7 +15,7 @@ function App() {
 
   return (
 
-    <div className='wrapper bg-[#fef1df]'>
+    <div className='wrapper bg-[#fef1df] scroll-smooth'>
 
       <StickyNavbar />
 
