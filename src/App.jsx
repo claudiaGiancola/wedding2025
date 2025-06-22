@@ -20,14 +20,8 @@ function App() {
       <StickyNavbar />
 
       <section id="top-illustration" className="gap-0 scroll-mt-20 header-section">
-
         <Countdown />
-
         <img src={invitoMatrimonio} className='background' />
-
-        {/* <img src={invitoMatrimonioClaudia} className='foreground foreground-L hover:translate-x-[-50vw] transition-transform duration-600'/>
-        <img src={invitoMatrimonioGiada} className='foreground foreground-R'/> */}
-
       </section>
 
       <div className="relative z-0 flex flex-col items-center justify-center bg-white">
@@ -51,11 +45,11 @@ function App() {
       </div>
 
       <div className='footer-section background-2 mt-20'>
-        <img src={invitoMatrimonioClaudia} className='w-1/2'/>
+        <img src={invitoMatrimonioClaudia} className='w-1/2 hidden sm:block'/>
         <div>
           <SimpleFooter />
         </div>
-        <img src={invitoMatrimonioGiada} className='w-1/2'/>
+        <img src={invitoMatrimonioGiada} className='w-1/2 hidden sm:block'/>
       </div>
 
     </div>
