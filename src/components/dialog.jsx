@@ -41,34 +41,34 @@ export function ModalWithImage({ imgSrc, textHeader, textBody, nome, iban, banca
           </Button>
         </DialogHeader>
         <DialogBody>
-          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 h-[70vh] sm:h-full">
+          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 h-full">
             <img
               alt="nature"
-              className="h-96 w-full sm:h-[36rem] sm:w-[60%] rounded-lg object-cover object-center"
+              className="h-[30vh] w-full sm:h-[36rem] sm:w-[60%] rounded-lg object-cover object-center"
               src={imgSrc}
             />
             <div className="flex flex-col justify-center gap-4 sm:gap-8">
               <div>
-                <Typography variant="paragraph" color="gray" className="font-normal">
+                <Typography variant="paragraph" color="gray" className="font-normal text-sm md:text-lg">
                   NOME
                 </Typography>
-                <Typography variant="h4" color="blue-gray" className="font-medium">
+                <Typography variant="paragraph" color="blue-gray" className="font-medium text-md md:text-lg">
                   {nome}
                 </Typography>
               </div>
               <div>
-                <Typography variant="paragraph" color="gray" className="font-normal">
+                <Typography variant="paragraph" color="gray" className="font-normal text-sm md:text-lg">
                   IBAN
                 </Typography>
-                <Typography variant="h4" color="blue-gray" className="font-medium">
+                <Typography variant="paragraph" color="blue-gray" className="font-medium text-md md:text-lg">
                   {iban}
                 </Typography>
               </div>
               <div>
-                <Typography variant="paragraph" color="gray" className="font-normal">
+                <Typography variant="paragraph" color="gray" className="font-normal text-sm md:text-lg">
                   BANCA
                 </Typography>
-                <Typography variant="h4" color="blue-gray" className="font-medium">
+                <Typography variant="paragraph" color="blue-gray" className="font-medium text-md md:text-lg">
                   {banca}
                 </Typography>
               </div>
