@@ -6,7 +6,6 @@
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  /* padding: 0 0 0 0; */
   text-align: center;
 }
 
@@ -38,6 +37,16 @@
   z-index: -1;
 }
 
+.footer-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
 .background, .foreground {
   position: absolute;
   height: 100%;
@@ -49,6 +58,11 @@
   width:100%;
   object-position: 44% 50%;
   transform: translateZ(-10px) scale(2);
+}
+
+.background-2 {
+  width:62%;
+  transform: translateZ(-5px) scale(1.5);
 }
 
 /* .foreground {

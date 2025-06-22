@@ -23,7 +23,7 @@ function App() {
 
         <Countdown />
 
-        <img src={invitoMatrimonio} className='background'/>
+        <img src={invitoMatrimonio} className='background' />
 
         {/* <img src={invitoMatrimonioClaudia} className='foreground foreground-L hover:translate-x-[-50vw] transition-transform duration-600'/>
         <img src={invitoMatrimonioGiada} className='foreground foreground-R'/> */}
@@ -50,7 +50,14 @@ function App() {
 
       </div>
 
-      <SimpleFooter />
+      <div className='footer-section background-2'>
+        <img src={invitoMatrimonioClaudia} />
+        <div className='bg-[#ffe7d1] pt-24'>
+          <SimpleFooter />
+        </div>
+        <img src={invitoMatrimonioGiada} />
+      </div>
+
 
     </div>
   )
