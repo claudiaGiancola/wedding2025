@@ -15,7 +15,7 @@ function App() {
 
   return (
 
-    <div className='wrapper'>
+    <div className='wrapper bg-[#fef1df]'>
 
       <StickyNavbar />
 
@@ -50,14 +50,13 @@ function App() {
 
       </div>
 
-      <div className='footer-section background-2'>
-        <img src={invitoMatrimonioClaudia} />
-        <div className='bg-[#ffe7d1] pt-24'>
+      <div className='footer-section background-2 mt-20'>
+        <img src={invitoMatrimonioClaudia} className='w-1/2'/>
+        <div>
           <SimpleFooter />
         </div>
-        <img src={invitoMatrimonioGiada} />
+        <img src={invitoMatrimonioGiada} className='w-1/2'/>
       </div>
-
 
     </div>
   )

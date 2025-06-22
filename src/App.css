@@ -41,8 +41,8 @@
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: start;
-  height: 100%;
+  align-items: center;
+  height: 100vh;
   transform-style: preserve-3d;
   z-index: -1;
 }
@@ -61,7 +61,6 @@
 }
 
 .background-2 {
-  width:62%;
   transform: translateZ(-5px) scale(1.5);
 }
 
