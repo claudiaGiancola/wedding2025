@@ -5,7 +5,7 @@ import '@leenguyen/react-flip-clock-countdown/dist/index.css';
 
 export default function Countdown() {
     return (
-        <div className='pb-[11vh]'>
+        <div className='pb-[15vh]'>
             <FlipClockCountdown
                 to={new Date("2025-09-06T16:30:00").getTime() + 24 * 3600 * 1000 + 5000}
                 className="countdown"
