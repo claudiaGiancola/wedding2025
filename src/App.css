@@ -31,7 +31,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: start;
   height: 100%;
   transform-style: preserve-3d;
   z-index: -1;

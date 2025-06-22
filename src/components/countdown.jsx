@@ -5,12 +5,12 @@ import '@leenguyen/react-flip-clock-countdown/dist/index.css';
 
 export default function Countdown() {
     return (
-        <div className='pb-[15vh]'>
+        <div className='pt-10'>
             <FlipClockCountdown
                 to={new Date("2025-09-06T16:30:00").getTime() + 24 * 3600 * 1000 + 5000}
                 className="countdown"
-                labels={['Days', 'Hours', 'Minutes', 'Seconds']}
-                labelStyle={{ fontSize: 16, color: '#363430'}}
+                labels={['Giorni', 'Ore', 'Minuti', 'Secondi']}
+                labelStyle={{ fontSize: 16, color: 'white'}}
                 digitBlockStyle={{ width: 30, height: 50, fontSize: 35, background: '#f6b092', borderRadius: 8, boxShadow: '0 6px 8px rgba(0, 0, 0, 0.4)' }}
             />
         </div>
