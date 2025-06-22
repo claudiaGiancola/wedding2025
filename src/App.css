@@ -17,11 +17,22 @@
   perspective: 10px;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.wrapper {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 .header-section {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
   height: 100%;
   transform-style: preserve-3d;
   z-index: -1;
@@ -36,15 +47,16 @@
 
 .background {
   width:100%;
+  object-position: 44% 50%;
   transform: translateZ(-10px) scale(2);
 }
 
-.foreground {
+/* .foreground {
   width: 50%;
   transform: translateZ(-5px) scale(1.5);
-}
+} */
 
-.foreground-L {
+/* .foreground-L {
   transform: translateX(-0px);
 
   left: 0;
@@ -54,4 +66,4 @@
   transform: translateX(+0px);
 
   right: 0;
-}
+} */
