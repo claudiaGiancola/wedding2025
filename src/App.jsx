@@ -29,7 +29,7 @@ function App() {
         <section id="timeline" className="gap-0 scroll-mt-20 mt-8 w-full">
 
           <Typography variant="lead" color="grey" className="text-2xl sm:text-4xl bg-orange-50 p-4 text-blue-gray-800">
-            Timeline
+            Programma
           </Typography>
 
           <TimelineWithIcon />

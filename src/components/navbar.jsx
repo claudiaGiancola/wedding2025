@@ -18,7 +18,7 @@ export function StickyNavbar() {
                 color="blue-gray"
                 className="p-1 font-normal text-lg sm:text-sm text-blue-gray-800">
                 <a href="#timeline">
-                    Timeline
+                    Programma
                 </a>
             </Typography>
             <Typography
