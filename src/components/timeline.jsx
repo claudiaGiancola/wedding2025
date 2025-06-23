@@ -79,7 +79,7 @@ export function TimelineWithIcon() {
               <MusicalNoteIcon className="h-6 w-6" />
             </TimelineIcon>
             <Typography variant="h5" color="blue-gray" className="text-left">
-              6 Settembre | 22:00 - 01:30 | Party
+              6 Settembre | 22:30 - 01:30 | Party
             </Typography>
           </TimelineHeader>
           <TimelineBody className="pb-8">
